@@ -1,3 +1,5 @@
-let personname: string ="ali";
+let personName: string = "ali";
+console.log(personName.toUpperCase);
+console.log(personName.toLowerCase);
+console.log(personName.charAt(0).toUpperCase()+personName.slice(1).toLowerCase());
 
-console.log(`Hello ${personname},would you love to learn some css?`);
