@@ -8,7 +8,7 @@ PROBLEM
 //  • Print a new set of invitation messages, one for each person in your list.
 
 SOLUTION//
-let guests : string []= ["Rehan, Touseef", "Mehmet"];
+let guests : string []= ["Rehan", "Touseef", "Mehmet"];
 console.log("Good news!I have found a bigger dinner table!");
 
 // Adding more guests
@@ -19,11 +19,10 @@ guests.push("Ahmed");
 guests.forEach(guest=> {
     console.log(`Dear ${guest}, Would you like to join me for dinner.`)
 });
-
-OUTUT//
-Good news!I have found a bigger dinner table!
+//OUTPUT
 Dear sufyan, Would you like to join me for dinner.
+Dear Rehan, Would you like to join me for dinner.
 Dear Asad, Would you like to join me for dinner.
-Dear Rehan, Touseef, Would you like to join me for dinner.
+Dear Touseef, Would you like to join me for dinner.
 Dear Mehmet, Would you like to join me for dinner.
 Dear Ahmed, Would you like to join me for dinner.
