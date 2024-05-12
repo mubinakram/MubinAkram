@@ -7,7 +7,7 @@ PROBLEM:
 // • Write one version of this program that passes the if test and another that fails. 
 // (The version that fails will have no output.) 
 
-OUTPUT:
+    SOLUTION:
 let alien_color = 'green';
 
 if (alien_color == 'green') {
@@ -19,3 +19,9 @@ if (alien_color == "green") {
     console.log("The player just earned 5 points."
     );
 };
+
+OUTPUT:
+
+The player just earned 5 points.
+
+
