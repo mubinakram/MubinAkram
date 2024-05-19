@@ -2,16 +2,22 @@
 // TypeScript. Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different
 //  message.
 
-function make_shirt(size :string ="Large", message: string = "I love typescript"): void {
-    console.log(`shirt's size is : '${size}',  "${message}" is printed on it`);
-    
+
+ function make_shirt(size: string = "Large", message: string = "I love TypeScript"): void {
+    console.log(`Making a ${size} shirt with the message: "${message}"`);
 }
- make_shirt();
- make_shirt("medium")
- make_shirt("small", '"lets learn"')
 
-output:
+// Create a large shirt with the default message
+make_shirt();
 
-shirt's size is : 'Large',  "I love typescript" is printed on it
-shirt's size is : 'medium',  "I love typescript" is printed on it
-shirt's size is : 'small',  ""lets learn"" is printed on it
+// Create a medium shirt with the default message
+make_shirt("Medium");
+
+// Create a shirt of any size with a different message
+make_shirt("Small", "Hello World!");
+
+ouput:
+
+Making a Large shirt with the message: "I love TypeScript"
+Making a Medium shirt with the message: "I love TypeScript"
+Making a Small shirt with the message: "Hello World!"
